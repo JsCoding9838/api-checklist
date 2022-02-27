@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Data read error</title>
+    <style>
+        #spinner{
+            display: none;
+        }
+        .rongInputError{
+            color: red;
+            font-weight: 600;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h2>Ramdom Users</h2>
+    <p id="rongInputError" class="rongInputError">This is not meals items of value</p>
+    <input id="search" type="text">
+    <button onclick="searchMeal()">Search</button>
+    <div id="spinner">Loading...</div>
+    
+
+    <div id="meals">
+
+    </div>
+
+
+    <script src="/app.js"></script>
+</body>
+</html>
